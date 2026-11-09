@@ -2,7 +2,6 @@ import './App.css';
 import { BrowserRouter, Route ,Routes  } from 'react-router-dom';
 import { FinanceProvider}  from "./context/FinanceContext";
 
-import Footer from './components/Footer';
 import MainLayout from './components/MainLayout';
 
 

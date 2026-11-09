@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import {  useContext } from "react";
 import { Link } from "react-router-dom";
 import { FinanceContext } from "../context/FinanceContext";
 
@@ -8,7 +8,7 @@ const Navbar = () => {
     return(
       <header className="navbar">
          <div className="navbar">
-            <h1>SpendWise</h1>
+            <h1>Welcome!</h1>
         </div>
 
         <div className="navbar-actions">

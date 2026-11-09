@@ -67,7 +67,7 @@ export const FinanceProvider = ({children}) => {
        
     }
 
-    },[transactions,isLoaded]);
+    },[transactions,budgets,isLoaded]);
 
 
     const [currency, setCurrency] = useState("USD");
